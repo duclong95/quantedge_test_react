@@ -1,0 +1,9 @@
+.increase{
+    color: #11DA32 !important;;
+  }
+.decrease{
+    color: red !important;
+  }
+body{
+  margin :0;
+}
