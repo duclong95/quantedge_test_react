@@ -3,7 +3,8 @@
   "jest": {
     "moduleNameMapper": {
       "\\.(css)$":"identity-obj-proxy"
-    }
+    },
+    "collectCoverage": true
   },
   "version": "1.0.0",
   "description": "",
