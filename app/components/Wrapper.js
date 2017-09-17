@@ -16,7 +16,6 @@ class Wrapper extends Component {
 
     check(i) {
         this.refs.dt.setState({ sort: i })
-
     }
 
     render() {

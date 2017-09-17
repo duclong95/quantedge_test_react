@@ -36878,8 +36878,8 @@ var TblData = function (_Component) {
             });
         }
     }, {
-        key: 'componentDidMount',
-        value: function componentDidMount() {
+        key: 'componentWillMount',
+        value: function componentWillMount() {
             setInterval(this.update.bind(this), 5000);
         }
     }, {
@@ -36896,9 +36896,9 @@ var TblData = function (_Component) {
                 }
             }).map(function (item) {
                 var className = 'increase';
-                if (item.change >= 0) {
-                    className = 'increase';
-                } else className = 'decrease';
+                if (item.change < 0) {
+                    className = 'decrease';
+                }
                 var value = (item.price * item.volume).toFixed(0);
                 return _react2.default.createElement(
                     _Table.TableRow,

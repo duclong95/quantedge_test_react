@@ -29,14 +29,14 @@ class TblData extends Component {
             item.change = change;
             item.percentChange = percentChange;
             item.price = (parseFloat(item.price) + parseFloat(change)).toFixed(2);
-            item.volume = (item.volume) + parseInt(updateVolume, 10);
+            item.volume = item.volume + parseInt(updateVolume, 10);
         })
         this.setState({
             dataState: items,
         })
     }
 
-    componentDidMount() {
+    componentWillMount() {
        setInterval(this.update.bind(this),5000);  
     }
     
@@ -50,9 +50,9 @@ class TblData extends Component {
             }
         }).map(item => {
             var className = 'increase'
-            if (item.change >= 0) {
-                className = 'increase';
-            } else className = 'decrease';
+            if (item.change < 0) {
+                className = 'decrease';
+            }
             var value = (item.price * item.volume).toFixed(0);
             return (
                 <TableRow key={item.id}>
