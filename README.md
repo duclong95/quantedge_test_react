@@ -2,10 +2,8 @@
 # Install
 npm install
 
-npm install -g jest-cli
-
 # Run server
 node index
 
 # Run test
-jest --coverage
+npm test -- --coverage (or jest --coverage)
