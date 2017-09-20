@@ -1,0 +1,2543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render TblData 1`] = `
+<Table
+  allRowsSelected={false}
+  fixedFooter={true}
+  fixedHeader={true}
+  height="inherit"
+  multiSelectable={false}
+  selectable={true}
+>
+  <TableBody
+    allRowsSelected={false}
+    deselectOnClickaway={true}
+    displayRowCheckbox={false}
+    multiSelectable={false}
+    preScanRows={true}
+    selectable={true}
+    style={Object {}}
+  >
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="27"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        ABC.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        SYRIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        82.52
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="72375404"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="2"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAC.CX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        USA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        94.69
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="70004412"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="11"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAM.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        CHINA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        90.99
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="58433141"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="24"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAZ.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        VIETNAM
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        58.59
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="53640551"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="1"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAB.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        VIETNAM
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        91.85
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="48487339"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="19"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAU.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        JAPAN
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        98.02
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="43240641"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="25"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        ABA.CX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        INDONESIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        89.09
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="42065625"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="7"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAH.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        BELGIUM
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        49.26
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="35224250"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="16"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAR.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        SINGAPORE
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        45.78
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="31586827"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="13"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAO.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        RUSSIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        37.52
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="28574031"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="22"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAX.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        FRANCE
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        93.43
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="25915333"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="26"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        ABB.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        AUSTRALIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        27.54
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="21393182"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="8"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAI.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        USA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        25.19
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="21318725"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="9"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAK.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        GERMANY
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        26.31
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="20915950"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="23"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAY.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        HUNGARY
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        87.13
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="20840363"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="20"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAV.BX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        KOREAN
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        92.69
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="16439498"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="28"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        ABD.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        FINLAND
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        15.01
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="13992742"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="17"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAS.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        THAILAND
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        50.61
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="13711615"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="18"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAT.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        IRAN
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        13.26
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="11105038"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="0"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAA.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        AUSTRALIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        24.33
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="11055017"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="6"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAG.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        TURKEY
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        12.92
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="10026049"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="3"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAD.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        ITALY
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        10.00
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="9982580"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="5"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAF.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        EGYPT
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        29.73
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="7179111"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="21"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAW.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        MALAYSIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        29.19
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="6547054"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="10"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAL.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        SPAIN
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        25.93
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="3979192"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="29"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        ABES.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        ICELANDICELAND
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        50.26
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="3859415"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="4"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAE.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        ENGLAND
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        8.86
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="3658657"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="14"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAP.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        LAOS
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        32.79
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="3102721"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="15"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAQ.CX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        CAMBODIA
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        50.16
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="2055808"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      key="12"
+      selectable={true}
+      striped={false}
+    >
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#119fe1",
+            "width": "10%",
+          }
+        }
+      >
+        AAN.AX
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "color": "#9e9e9e",
+            "width": "29%",
+          }
+        }
+      >
+        PHILIPPINES
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        2.76
+      </TableRowColumn>
+      <TableRowColumn
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        <NumberFormat
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          isAllowed={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator={true}
+          type="text"
+          value="782960"
+        />
+      </TableRowColumn>
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      />
+      <TableRowColumn
+        className="increase"
+        hoverable={false}
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %
+      </TableRowColumn>
+    </TableRow>
+  </TableBody>
+</Table>
+`;

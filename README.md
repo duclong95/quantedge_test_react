@@ -6,4 +6,4 @@ npm install
 node index
 
 # Run test
-npm test (or 'jest')
+npm test -- -u (or 'jest -u')

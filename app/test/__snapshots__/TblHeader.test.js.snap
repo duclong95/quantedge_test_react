@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Header 1`] = `
+<Table
+  allRowsSelected={false}
+  fixedFooter={true}
+  fixedHeader={true}
+  height="inherit"
+  multiSelectable={false}
+  selectable={true}
+>
+  <TableHeader
+    adjustForCheckbox={false}
+    displaySelectAll={false}
+    enableSelectAll={true}
+    selectAllSelected={false}
+  >
+    <TableRow
+      displayBorder={true}
+      hoverable={false}
+      hovered={false}
+      selectable={true}
+      striped={false}
+    >
+      <TableHeaderColumn
+        style={
+          Object {
+            "width": "10%",
+          }
+        }
+      >
+        Code
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        style={
+          Object {
+            "width": "29%",
+          }
+        }
+      >
+        Company
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        style={
+          Object {
+            "width": "19%",
+          }
+        }
+      >
+        Price
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        Value
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        Change
+      </TableHeaderColumn>
+      <TableHeaderColumn
+        style={
+          Object {
+            "width": "14%",
+          }
+        }
+      >
+        %Change
+      </TableHeaderColumn>
+    </TableRow>
+  </TableHeader>
+</Table>
+`;

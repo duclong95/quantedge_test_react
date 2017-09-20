@@ -15,8 +15,10 @@ class TblData extends Component {
         super(props);
         this.state = {
             dataState: data,
-            sort: 'decrease'
+            sort: 'decrease',
+            change : 'not'
         }
+        this.update = this.update.bind(this);
     }
     update() {
         var items = this.state.dataState;
@@ -33,13 +35,13 @@ class TblData extends Component {
         })
         this.setState({
             dataState: items,
+            change: 'changed'
         })
     }
-
     componentWillMount() {
-       setInterval(this.update.bind(this),5000);  
+       setInterval(this.update,5000); 
+       
     }
-    
     render() {
         var list = this.state.dataState.sort((a, b) => {
             if (this.state.sort === "increase") {

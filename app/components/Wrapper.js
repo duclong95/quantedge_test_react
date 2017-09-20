@@ -14,8 +14,18 @@ const styles = {
 };
 class Wrapper extends Component {
 
+    constructor(props){
+        super(props);
+        this.state = {
+            sort: 'decrease'
+        }
+    }
+
     check(i) {
-        this.refs.dt.setState({ sort: i })
+        this.setState({
+            sort: i
+        })
+        this.refs.dt.setState({ sort: i})
     }
 
     render() {
@@ -25,14 +35,14 @@ class Wrapper extends Component {
                     title="A&P/ASX"
                     showMenuIconButton={false}>
                     <Tabs>
-                        <Tab style={styles.tab} onActive={this.check.bind(this, 'decrease')} label="TOP GAINERS" >
+                        <Tab className="gain" style={styles.tab} onActive={this.check.bind(this, 'decrease')} label="TOP GAINERS" >
                         </Tab>
-                        <Tab style={styles.tab} onActive={this.check.bind(this, 'increase')} label="TOP LOSERS" >
+                        <Tab className="lose" style={styles.tab} onActive={this.check.bind(this, 'increase')} label="TOP LOSERS" >
                         </Tab>
                     </Tabs>
                 </AppBar>
                 <TblHeader />
-                <TblData ref='dt' />
+                <TblData className="data" ref='dt' />
             </div>
         )
     }

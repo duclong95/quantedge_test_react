@@ -2,7 +2,7 @@
   "name": "quantedge_test_react_2",
   "jest": {
     "moduleNameMapper": {
-      "\\.(css)$":"identity-obj-proxy"
+      "\\.(css)$": "identity-obj-proxy"
     },
     "collectCoverage": true
   },
@@ -31,6 +31,7 @@
     "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^0.28.7",
     "enzyme": "^2.9.1",
+    "enzyme-to-json": "^2.0.0",
     "jest": "^21.1.0",
     "jest-cli": "^21.1.0",
     "react-test-renderer": "^15.6.1",

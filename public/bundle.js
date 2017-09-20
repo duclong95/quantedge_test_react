@@ -32503,15 +32503,23 @@ var styles = {
 var Wrapper = function (_Component) {
     _inherits(Wrapper, _Component);
 
-    function Wrapper() {
+    function Wrapper(props) {
         _classCallCheck(this, Wrapper);
 
-        return _possibleConstructorReturn(this, (Wrapper.__proto__ || Object.getPrototypeOf(Wrapper)).apply(this, arguments));
+        var _this = _possibleConstructorReturn(this, (Wrapper.__proto__ || Object.getPrototypeOf(Wrapper)).call(this, props));
+
+        _this.state = {
+            sort: 'decrease'
+        };
+        return _this;
     }
 
     _createClass(Wrapper, [{
         key: 'check',
         value: function check(i) {
+            this.setState({
+                sort: i
+            });
             this.refs.dt.setState({ sort: i });
         }
     }, {
@@ -32528,12 +32536,12 @@ var Wrapper = function (_Component) {
                     _react2.default.createElement(
                         _Tabs.Tabs,
                         null,
-                        _react2.default.createElement(_Tabs.Tab, { style: styles.tab, onActive: this.check.bind(this, 'decrease'), label: 'TOP GAINERS' }),
-                        _react2.default.createElement(_Tabs.Tab, { style: styles.tab, onActive: this.check.bind(this, 'increase'), label: 'TOP LOSERS' })
+                        _react2.default.createElement(_Tabs.Tab, { className: 'gain', style: styles.tab, onActive: this.check.bind(this, 'decrease'), label: 'TOP GAINERS' }),
+                        _react2.default.createElement(_Tabs.Tab, { className: 'lose', style: styles.tab, onActive: this.check.bind(this, 'increase'), label: 'TOP LOSERS' })
                     )
                 ),
                 _react2.default.createElement(_TblHeader2.default, null),
-                _react2.default.createElement(_TblData2.default, { ref: 'dt' })
+                _react2.default.createElement(_TblData2.default, { className: 'data', ref: 'dt' })
             );
         }
     }]);
@@ -36853,8 +36861,10 @@ var TblData = function (_Component) {
 
         _this.state = {
             dataState: _data2.default,
-            sort: 'decrease'
+            sort: 'decrease',
+            change: 'not'
         };
+        _this.update = _this.update.bind(_this);
         return _this;
     }
 
@@ -36874,13 +36884,14 @@ var TblData = function (_Component) {
                 item.volume = item.volume + parseInt(updateVolume, 10);
             });
             this.setState({
-                dataState: items
+                dataState: items,
+                change: 'changed'
             });
         }
     }, {
         key: 'componentWillMount',
         value: function componentWillMount() {
-            setInterval(this.update.bind(this), 5000);
+            setInterval(this.update, 5000);
         }
     }, {
         key: 'render',

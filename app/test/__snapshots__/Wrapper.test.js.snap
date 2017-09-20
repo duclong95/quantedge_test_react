@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Wrapper 1`] = `
+<div>
+  <AppBar
+    showMenuIconButton={false}
+    title="A&P/ASX"
+    zDepth={1}
+  >
+    <Tabs
+      initialSelectedIndex={0}
+      onChange={[Function]}
+    >
+      <Tab
+        className="gain"
+        label="TOP GAINERS"
+        onActive={[Function]}
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "padding": 8,
+          }
+        }
+      />
+      <Tab
+        className="lose"
+        label="TOP LOSERS"
+        onActive={[Function]}
+        style={
+          Object {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "marginLeft": 10,
+            "marginRight": 10,
+            "padding": 8,
+          }
+        }
+      />
+    </Tabs>
+  </AppBar>
+  <TblHeader />
+  <TblData
+    className="data"
+  />
+</div>
+`;
