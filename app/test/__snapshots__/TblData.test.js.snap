@@ -27,44 +27,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAA.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         AUSTRALIA
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        20.12
+        51.55
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -78,7 +60,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="12365370"
+          value="18076575"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -114,44 +96,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
-        ABES.AX
+        ABE.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         ICELANDICELAND
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        6.60
+        20.92
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -165,7 +129,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="6596575"
+          value="5303597"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -201,44 +165,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAC.CX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         USA
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        8.49
+        38.56
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -252,7 +198,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="5428285"
+          value="29829360"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -288,44 +234,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAD.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         ITALY
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        48.10
+        79.65
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -339,7 +267,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="21733264"
+          value="49881768"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -375,44 +303,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAE.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         ENGLAND
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        85.86
+        88.62
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -426,7 +336,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="74289764"
+          value="77213099"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -462,44 +372,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAF.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         EGYPT
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        9.12
+        98.53
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -513,7 +405,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="5023141"
+          value="56866984"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -549,44 +441,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAG.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         TURKEY
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        89.28
+        51.17
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -600,7 +474,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="28684057"
+          value="26848234"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -636,44 +510,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAH.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         BELGIUM
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        18.51
+        4.09
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -687,7 +543,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="9285875"
+          value="3964539"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -723,44 +579,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAI.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         USA
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        62.65
+        89.96
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -774,7 +612,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="2593522"
+          value="69104393"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -810,44 +648,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAK.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         GERMANY
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        91.51
+        72.35
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -861,7 +681,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="78856638"
+          value="9214930"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -897,44 +717,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAL.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         SPAIN
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        11.47
+        83.53
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -948,7 +750,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="7086682"
+          value="9534448"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -984,44 +786,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAM.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         CHINA
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        22.30
+        96.33
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1035,7 +819,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="12517213"
+          value="60379933"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1071,44 +855,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAN.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         PHILIPPINES
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        81.26
+        53.85
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1122,7 +888,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="1247341"
+          value="51566437"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1158,44 +924,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAO.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         RUSSIA
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        87.59
+        7.53
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1209,7 +957,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="79199754"
+          value="3912407"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1245,44 +993,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAP.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         LAOS
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        86.95
+        26.70
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1296,7 +1026,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="31726142"
+          value="18652326"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1332,44 +1062,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAB.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         IRAQ
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        85.78
+        21.26
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1383,7 +1095,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="31331917"
+          value="4651220"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1419,44 +1131,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAR.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         SINGAPORE
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        90.68
+        75.79
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1470,7 +1164,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="60779177"
+          value="36466662"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1506,44 +1200,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAS.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         THAILAND
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        52.53
+        88.87
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1557,7 +1233,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="22905496"
+          value="38144159"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1593,44 +1269,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAT.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         IRAN
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        61.24
+        12.58
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1644,7 +1302,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="38598286"
+          value="6827392"
         />
       </TableRowColumn>
       <TableRowColumn
@@ -1680,44 +1338,26 @@ exports[`Render TblData 1`] = `
       striped={false}
     >
       <TableRowColumn
+        className="code"
         hoverable={false}
-        style={
-          Object {
-            "color": "#119fe1",
-            "width": "10%",
-          }
-        }
       >
         AAU.AX
       </TableRowColumn>
       <TableRowColumn
+        className="company"
         hoverable={false}
-        style={
-          Object {
-            "color": "#9e9e9e",
-            "width": "29%",
-          }
-        }
       >
         JAPAN
       </TableRowColumn>
       <TableRowColumn
+        className="price"
         hoverable={false}
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
       >
-        90.81
+        64.05
       </TableRowColumn>
       <TableRowColumn
+        className="value"
         hoverable={false}
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
       >
         <NumberFormat
           allowNegative={true}
@@ -1731,7 +1371,7 @@ exports[`Render TblData 1`] = `
           suffix=""
           thousandSeparator={true}
           type="text"
-          value="69462658"
+          value="31927516"
         />
       </TableRowColumn>
       <TableRowColumn

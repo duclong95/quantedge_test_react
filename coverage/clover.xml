@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1506012783820" clover="3.2.0">
-  <project timestamp="1506012783820" name="All files">
+<coverage generated="1506015036439" clover="3.2.0">
+  <project timestamp="1506015036439" name="All files">
     <metrics statements="37" coveredstatements="35" conditionals="6" coveredconditionals="4" methods="12" coveredmethods="12" elements="55" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="2" files="4" classes="4">
       <package name="components">
         <metrics statements="37" coveredstatements="35" conditionals="6" coveredconditionals="4" methods="12" coveredmethods="12"/>
@@ -29,7 +29,7 @@
           <line num="48" count="0" type="stmt"/>
           <line num="51" count="60" type="stmt"/>
           <line num="52" count="60" type="cond" truecount="2" falsecount="0"/>
-          <line num="53" count="18" type="stmt"/>
+          <line num="53" count="19" type="stmt"/>
           <line num="55" count="60" type="stmt"/>
           <line num="56" count="60" type="stmt"/>
           <line num="67" count="60" type="stmt"/>
@@ -43,12 +43,12 @@
         </file>
         <file name="Wrapper.js" path="/Users/apple/Desktop/quantedge_test_react_2/app/components/Wrapper.js">
           <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="6" count="2" type="stmt"/>
-          <line num="18" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
           <line num="19" count="2" type="stmt"/>
-          <line num="25" count="2" type="stmt"/>
-          <line num="31" count="4" type="stmt"/>
-          <line num="49" count="2" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="26" count="2" type="stmt"/>
+          <line num="32" count="4" type="stmt"/>
+          <line num="50" count="2" type="stmt"/>
         </file>
       </package>
       <package name="data">

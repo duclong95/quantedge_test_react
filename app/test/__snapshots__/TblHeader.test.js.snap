@@ -23,56 +23,32 @@ exports[`Render Header 1`] = `
       striped={false}
     >
       <TableHeaderColumn
-        style={
-          Object {
-            "width": "10%",
-          }
-        }
+        className="code"
       >
         Code
       </TableHeaderColumn>
       <TableHeaderColumn
-        style={
-          Object {
-            "width": "29%",
-          }
-        }
+        className="company"
       >
         Company
       </TableHeaderColumn>
       <TableHeaderColumn
-        style={
-          Object {
-            "width": "19%",
-          }
-        }
+        className="price"
       >
         Price
       </TableHeaderColumn>
       <TableHeaderColumn
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
+        className="value"
       >
         Value
       </TableHeaderColumn>
       <TableHeaderColumn
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
+        className="value"
       >
         Change
       </TableHeaderColumn>
       <TableHeaderColumn
-        style={
-          Object {
-            "width": "14%",
-          }
-        }
+        className="value"
       >
         %Change
       </TableHeaderColumn>
