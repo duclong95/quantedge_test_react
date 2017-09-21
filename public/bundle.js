@@ -14417,6 +14417,8 @@ var _Wrapper = __webpack_require__(355);
 
 var _Wrapper2 = _interopRequireDefault(_Wrapper);
 
+__webpack_require__(391);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom2.default.render(_react2.default.createElement(
@@ -32509,18 +32511,17 @@ var Wrapper = function (_Component) {
         var _this = _possibleConstructorReturn(this, (Wrapper.__proto__ || Object.getPrototypeOf(Wrapper)).call(this, props));
 
         _this.state = {
-            sort: 'decrease'
+            sortType: 'gain'
         };
         return _this;
     }
 
     _createClass(Wrapper, [{
-        key: 'check',
-        value: function check(i) {
+        key: 'sort',
+        value: function sort(type) {
             this.setState({
-                sort: i
+                sortType: type
             });
-            this.refs.dt.setState({ sort: i });
         }
     }, {
         key: 'render',
@@ -32536,12 +32537,12 @@ var Wrapper = function (_Component) {
                     _react2.default.createElement(
                         _Tabs.Tabs,
                         null,
-                        _react2.default.createElement(_Tabs.Tab, { className: 'gain', style: styles.tab, onActive: this.check.bind(this, 'decrease'), label: 'TOP GAINERS' }),
-                        _react2.default.createElement(_Tabs.Tab, { className: 'lose', style: styles.tab, onActive: this.check.bind(this, 'increase'), label: 'TOP LOSERS' })
+                        _react2.default.createElement(_Tabs.Tab, { className: 'gain', style: styles.tab, onActive: this.sort.bind(this, 'gain'), label: 'TOP GAINERS' }),
+                        _react2.default.createElement(_Tabs.Tab, { className: 'lose', style: styles.tab, onActive: this.sort.bind(this, 'lose'), label: 'TOP LOSERS' })
                     )
                 ),
                 _react2.default.createElement(_TblHeader2.default, null),
-                _react2.default.createElement(_TblData2.default, { className: 'data', ref: 'dt' })
+                _react2.default.createElement(_TblData2.default, { className: 'data', sortType: this.state.sortType })
             );
         }
     }]);
@@ -32578,32 +32579,32 @@ var TblHeader = function TblHeader() {
                 null,
                 _react2.default.createElement(
                     _Table.TableHeaderColumn,
-                    { style: { width: '10%' } },
+                    { className: 'code' },
                     'Code'
                 ),
                 _react2.default.createElement(
                     _Table.TableHeaderColumn,
-                    { style: { width: '29%' } },
+                    { className: 'company' },
                     'Company'
                 ),
                 _react2.default.createElement(
                     _Table.TableHeaderColumn,
-                    { style: { width: '19%' } },
+                    { className: 'price' },
                     'Price'
                 ),
                 _react2.default.createElement(
                     _Table.TableHeaderColumn,
-                    { style: { width: '14%' } },
+                    { className: 'value' },
                     'Value'
                 ),
                 _react2.default.createElement(
                     _Table.TableHeaderColumn,
-                    { style: { width: '14%' } },
+                    { className: 'value' },
                     'Change'
                 ),
                 _react2.default.createElement(
                     _Table.TableHeaderColumn,
-                    { style: { width: '14%' } },
+                    { className: 'value' },
                     '%Change'
                 )
             )
@@ -36839,8 +36840,6 @@ var _data = __webpack_require__(390);
 
 var _data2 = _interopRequireDefault(_data);
 
-__webpack_require__(391);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -36854,15 +36853,14 @@ var NumberFormat = __webpack_require__(396);
 var TblData = function (_Component) {
     _inherits(TblData, _Component);
 
-    function TblData(props) {
+    function TblData(props, origin) {
         _classCallCheck(this, TblData);
 
         var _this = _possibleConstructorReturn(this, (TblData.__proto__ || Object.getPrototypeOf(TblData)).call(this, props));
 
         _this.state = {
             dataState: _data2.default,
-            sort: 'decrease',
-            change: 'not'
+            change: 'notchange'
         };
         _this.update = _this.update.bind(_this);
         return _this;
@@ -36872,15 +36870,14 @@ var TblData = function (_Component) {
         key: 'update',
         value: function update() {
             var items = this.state.dataState;
-
             items.map(function (item) {
                 var limit = item.price * (5 / 100);
-                var change = (Math.random() * (limit + limit) - limit).toFixed(2);
-                var percentChange = (change / item.price * 100).toFixed(2);
+                var updateChange = (Math.random() * (limit + limit) - limit).toFixed(2);
                 var updateVolume = Math.random() * (30 - 10) + 10;
-                item.change = change;
+                item.price = (parseFloat(item.price) + parseFloat(updateChange)).toFixed(2);
+                item.change = (parseFloat(item.change) + parseFloat(updateChange)).toFixed(2);
+                var percentChange = (item.change / (item.price - item.change) * 100).toFixed(2);
                 item.percentChange = percentChange;
-                item.price = (parseFloat(item.price) + parseFloat(change)).toFixed(2);
                 item.volume = item.volume + parseInt(updateVolume, 10);
             });
             this.setState({
@@ -36898,14 +36895,14 @@ var TblData = function (_Component) {
         value: function render() {
             var _this2 = this;
 
-            var list = this.state.dataState.sort(function (a, b) {
-                if (_this2.state.sort === "increase") {
+            var listData = this.state.dataState.sort(function (a, b) {
+                if (_this2.props.sortType === "lose") {
                     return a.price * a.volume - b.price * b.volume;
                 }
-                if (_this2.state.sort === "decrease") {
+                if (_this2.props.sortType === "gain") {
                     return b.price * b.volume - a.price * a.volume;
                 }
-            }).map(function (item) {
+            }).map(function (item, index) {
                 var className = 'increase';
                 if (item.change < 0) {
                     className = 'decrease';
@@ -36913,25 +36910,25 @@ var TblData = function (_Component) {
                 var value = (item.price * item.volume).toFixed(0);
                 return _react2.default.createElement(
                     _Table.TableRow,
-                    { key: item.id },
+                    { key: index },
                     _react2.default.createElement(
                         _Table.TableRowColumn,
-                        { style: { width: '10%', color: '#119fe1' } },
+                        { className: 'code' },
                         item.code
                     ),
                     _react2.default.createElement(
                         _Table.TableRowColumn,
-                        { style: { width: '29%', color: '#9e9e9e' } },
+                        { className: 'company' },
                         item.company
                     ),
                     _react2.default.createElement(
                         _Table.TableRowColumn,
-                        { style: { width: '19%' } },
+                        { className: 'price' },
                         item.price
                     ),
                     _react2.default.createElement(
                         _Table.TableRowColumn,
-                        { style: { width: '14%' } },
+                        { className: 'value' },
                         _react2.default.createElement(NumberFormat, { value: value, displayType: 'text', thousandSeparator: true })
                     ),
                     _react2.default.createElement(
@@ -36946,15 +36943,16 @@ var TblData = function (_Component) {
                         '%'
                     )
                 );
+            }).filter(function (row) {
+                return row.key < 20;
             });
-
             return _react2.default.createElement(
                 _Table.Table,
                 null,
                 _react2.default.createElement(
                     _Table.TableBody,
                     { displayRowCheckbox: false },
-                    list
+                    listData
                 )
             );
         }
@@ -36980,198 +36978,243 @@ exports.default = [{
     code: 'AAA.AX',
     company: 'AUSTRALIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 1,
     code: 'AAB.AX',
-    company: 'VIETNAM',
+    company: 'IRAQ',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 2,
     code: 'AAC.CX',
     company: 'USA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 3,
     code: 'AAD.AX',
     company: 'ITALY',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 4,
     code: 'AAE.AX',
     company: 'ENGLAND',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 5,
     code: 'AAF.AX',
     company: 'EGYPT',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 6,
     code: 'AAG.AX',
     company: 'TURKEY',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 7,
     code: 'AAH.AX',
     company: 'BELGIUM',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 8,
     code: 'AAI.AX',
     company: 'USA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 9,
     code: 'AAK.AX',
     company: 'GERMANY',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 10,
     code: 'AAL.AX',
     company: 'SPAIN',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 11,
     code: 'AAM.AX',
     company: 'CHINA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 12,
     code: 'AAN.AX',
     company: 'PHILIPPINES',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 13,
     code: 'AAO.AX',
     company: 'RUSSIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 14,
     code: 'AAP.AX',
     company: 'LAOS',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 15,
     code: 'AAQ.CX',
     company: 'CAMBODIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 16,
     code: 'AAR.AX',
     company: 'SINGAPORE',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 17,
     code: 'AAS.AX',
     company: 'THAILAND',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 18,
     code: 'AAT.AX',
     company: 'IRAN',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 19,
     code: 'AAU.AX',
     company: 'JAPAN',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 20,
     code: 'AAV.BX',
     company: 'KOREAN',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 21,
     code: 'AAW.AX',
     company: 'MALAYSIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 
 }, {
     id: 22,
     code: 'AAX.AX',
     company: 'FRANCE',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 23,
     code: 'AAY.AX',
     company: 'HUNGARY',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 24,
     code: 'AAZ.AX',
     company: 'VIETNAM',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 25,
     code: 'ABA.CX',
     company: 'INDONESIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 26,
     code: 'ABB.AX',
     company: 'AUSTRALIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 27,
     code: 'ABC.AX',
     company: 'SYRIA',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 
 }, {
     id: 28,
     code: 'ABD.AX',
     company: 'FINLAND',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
-
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }, {
     id: 29,
-    code: 'ABES.AX',
+    code: 'ABE.AX',
     company: 'ICELANDICELAND',
     price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
-    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10)
+    volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+    change: 0,
+    percentChange: 0
 }];
 
 /***/ }),
@@ -37214,7 +37257,7 @@ exports = module.exports = __webpack_require__(393)(undefined);
 
 
 // module
-exports.push([module.i, ".increase{\n    color: #11DA32 !important;;\n  }\n.decrease{\n    color: red !important;\n  }\nbody{\n  margin :0;\n}", ""]);
+exports.push([module.i, ".increase{\n    color: #11DA32 !important;;\n  }\n.decrease{\n    color: red !important;\n  }\nbody{\n  margin :0;\n  \n}\n.code{\n  width: 8%;\n  color: #119fe1\n}\n.company{\n  width: 30%;\n  color: #9e9e9e\n}\n.price{\n  width: 20%;\n}\n.value{\n  width: 14%;\n}\n", ""]);
 
 // exports
 

@@ -10,12 +10,12 @@ const TblHeader = () => (
     <Table>
         <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow>
-                <TableHeaderColumn style={{ width: '10%' }}>Code</TableHeaderColumn>
-                <TableHeaderColumn style={{ width: '29%' }}>Company</TableHeaderColumn>
-                <TableHeaderColumn style={{ width: '19%' }}>Price</TableHeaderColumn>
-                <TableHeaderColumn style={{ width: '14%' }}>Value</TableHeaderColumn>
-                <TableHeaderColumn style={{ width: '14%' }}>Change</TableHeaderColumn>
-                <TableHeaderColumn style={{ width: '14%' }}>%Change</TableHeaderColumn>
+                <TableHeaderColumn className='code'>Code</TableHeaderColumn>
+                <TableHeaderColumn className='company'>Company</TableHeaderColumn>
+                <TableHeaderColumn className='price'>Price</TableHeaderColumn>
+                <TableHeaderColumn className='value'>Value</TableHeaderColumn>
+                <TableHeaderColumn className='value'>Change</TableHeaderColumn>
+                <TableHeaderColumn className='value'>%Change</TableHeaderColumn>
             </TableRow>
         </TableHeader>
     </Table>

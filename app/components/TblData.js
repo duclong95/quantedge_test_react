@@ -6,31 +6,28 @@ import {
     TableRow,
 } from 'material-ui/Table';
 import data from '../data/data'
-import '../css/style.css'
+
 var NumberFormat = require('react-number-format');
 
 class TblData extends Component {
-
-    constructor(props) {
+    constructor(props,origin) {
         super(props);
         this.state = {
             dataState: data,
-            sort: 'decrease',
-            change : 'not'
+            change: 'notchange'
         }
         this.update = this.update.bind(this);
     }
     update() {
         var items = this.state.dataState;
-
         items.map(item => {
             var limit = item.price * (5 / 100);
-            let change = (Math.random() * (limit + limit) - limit).toFixed(2);
-            var percentChange = ((change / item.price) * 100).toFixed(2);
+            var updateChange = (Math.random() * (limit + limit) - limit).toFixed(2);
             var updateVolume = Math.random() * (30 - 10) + 10;
-            item.change = change;
+            item.price = (parseFloat(item.price) + parseFloat(updateChange)).toFixed(2);
+            item.change = (parseFloat(item.change)+parseFloat(updateChange)).toFixed(2);
+            var percentChange = ((item.change / (item.price - item.change)) * 100).toFixed(2);
             item.percentChange = percentChange;
-            item.price = (parseFloat(item.price) + parseFloat(change)).toFixed(2);
             item.volume = item.volume + parseInt(updateVolume, 10);
         })
         this.setState({
@@ -39,39 +36,40 @@ class TblData extends Component {
         })
     }
     componentWillMount() {
-       setInterval(this.update,5000); 
-       
+        setInterval(this.update, 5000);
+
     }
     render() {
-        var list = this.state.dataState.sort((a, b) => {
-            if (this.state.sort === "increase") {
+        var listData = this.state.dataState.sort((a, b) => {
+            if (this.props.sortType === "lose") {
                 return (a.price * a.volume) - (b.price * b.volume);
             }
-            if (this.state.sort === "decrease") {
+            if (this.props.sortType === "gain") {
                 return (b.price * b.volume) - (a.price * a.volume);
             }
-        }).map(item => {
+        }).map((item, index) => {
             var className = 'increase'
             if (item.change < 0) {
                 className = 'decrease';
             }
             var value = (item.price * item.volume).toFixed(0);
             return (
-                <TableRow key={item.id}>
-                    <TableRowColumn style={{ width: '10%', color: '#119fe1' }}>{item.code}</TableRowColumn>
-                    <TableRowColumn style={{ width: '29%', color:'#9e9e9e' }}>{item.company}</TableRowColumn>
-                    <TableRowColumn style={{ width: '19%' }}>{item.price}</TableRowColumn>
-                    <TableRowColumn style={{ width: '14%' }}><NumberFormat value={value} displayType={'text'} thousandSeparator={true} /></TableRowColumn>
+                <TableRow key={index}>
+                    <TableRowColumn className='code'>{item.code}</TableRowColumn>
+                    <TableRowColumn className='company'>{item.company}</TableRowColumn>
+                    <TableRowColumn className='price'>{item.price}</TableRowColumn>
+                    <TableRowColumn className='value'><NumberFormat value={value} displayType={'text'} thousandSeparator={true} /></TableRowColumn>
                     <TableRowColumn className={className} style={{ width: '14%' }}>{item.change}</TableRowColumn>
                     <TableRowColumn className={className} style={{ width: '14%' }}>{item.percentChange}%</TableRowColumn>
                 </TableRow>
             )
+        }).filter((row) => {
+            return (row.key < 20)
         })
-
         return (
             <Table>
                 <TableBody displayRowCheckbox={false}>
-                    {list}
+                    {listData}
                 </TableBody>
             </Table>
         )

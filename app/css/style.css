@@ -6,4 +6,19 @@
   }
 body{
   margin :0;
+  
+}
+.code{
+  width: 8%;
+  color: #119fe1
+}
+.company{
+  width: 30%;
+  color: #9e9e9e
+}
+.price{
+  width: 20%;
+}
+.value{
+  width: 14%;
 }

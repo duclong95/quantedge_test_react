@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1505920233909" clover="3.2.0">
-  <project timestamp="1505920233909" name="All files">
-    <metrics statements="37" coveredstatements="36" conditionals="6" coveredconditionals="4" methods="11" coveredmethods="11" elements="54" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="2" files="4" classes="4">
+<coverage generated="1506012783820" clover="3.2.0">
+  <project timestamp="1506012783820" name="All files">
+    <metrics statements="37" coveredstatements="35" conditionals="6" coveredconditionals="4" methods="12" coveredmethods="12" elements="55" coveredelements="51" complexity="0" loc="37" ncloc="37" packages="2" files="4" classes="4">
       <package name="components">
-        <metrics statements="37" coveredstatements="36" conditionals="6" coveredconditionals="4" methods="11" coveredmethods="11"/>
+        <metrics statements="37" coveredstatements="35" conditionals="6" coveredconditionals="4" methods="12" coveredmethods="12"/>
         <file name="TblData.js" path="/Users/apple/Desktop/quantedge_test_react_2/app/components/TblData.js">
-          <metrics statements="27" coveredstatements="26" conditionals="6" coveredconditionals="4" methods="7" coveredmethods="7"/>
+          <metrics statements="28" coveredstatements="26" conditionals="6" coveredconditionals="4" methods="8" coveredmethods="8"/>
           <line num="10" count="2" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
           <line num="15" count="1" type="stmt"/>
-          <line num="16" count="1" type="stmt"/>
-          <line num="21" count="1" type="stmt"/>
-          <line num="24" count="1" type="stmt"/>
-          <line num="26" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="30" type="stmt"/>
+          <line num="25" count="30" type="stmt"/>
+          <line num="26" count="30" type="stmt"/>
           <line num="27" count="30" type="stmt"/>
           <line num="28" count="30" type="stmt"/>
           <line num="29" count="30" type="stmt"/>
           <line num="30" count="30" type="stmt"/>
           <line num="31" count="30" type="stmt"/>
-          <line num="32" count="30" type="stmt"/>
-          <line num="33" count="30" type="stmt"/>
-          <line num="34" count="30" type="stmt"/>
-          <line num="36" count="1" type="stmt"/>
-          <line num="42" count="1" type="stmt"/>
-          <line num="46" count="2" type="stmt"/>
-          <line num="47" count="245" type="cond" truecount="1" falsecount="1"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
+          <line num="44" count="60" type="cond" truecount="1" falsecount="1"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="47" count="60" type="cond" truecount="1" falsecount="1"/>
           <line num="48" count="0" type="stmt"/>
-          <line num="50" count="245" type="cond" truecount="1" falsecount="1"/>
-          <line num="51" count="245" type="stmt"/>
-          <line num="54" count="60" type="stmt"/>
-          <line num="55" count="60" type="cond" truecount="2" falsecount="0"/>
-          <line num="56" count="19" type="stmt"/>
-          <line num="58" count="60" type="stmt"/>
-          <line num="59" count="60" type="stmt"/>
-          <line num="71" count="2" type="stmt"/>
+          <line num="51" count="60" type="stmt"/>
+          <line num="52" count="60" type="cond" truecount="2" falsecount="0"/>
+          <line num="53" count="18" type="stmt"/>
+          <line num="55" count="60" type="stmt"/>
+          <line num="56" count="60" type="stmt"/>
+          <line num="67" count="60" type="stmt"/>
+          <line num="69" count="2" type="stmt"/>
         </file>
         <file name="TblHeader.js" path="/Users/apple/Desktop/quantedge_test_react_2/app/components/TblHeader.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="9" count="2" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
           <line num="10" count="1" type="stmt"/>
-          <line num="24" count="2" type="stmt"/>
+          <line num="24" count="3" type="stmt"/>
         </file>
         <file name="Wrapper.js" path="/Users/apple/Desktop/quantedge_test_react_2/app/components/Wrapper.js">
-          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="6" count="1" type="stmt"/>
-          <line num="18" count="1" type="stmt"/>
-          <line num="19" count="1" type="stmt"/>
-          <line num="25" count="1" type="stmt"/>
-          <line num="28" count="1" type="stmt"/>
-          <line num="32" count="2" type="stmt"/>
-          <line num="50" count="1" type="stmt"/>
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+          <line num="31" count="4" type="stmt"/>
+          <line num="49" count="2" type="stmt"/>
         </file>
       </package>
       <package name="data">

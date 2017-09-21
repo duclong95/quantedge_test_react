@@ -5,14 +5,17 @@ export default [
         company: 'AUSTRALIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 1,
         code: 'AAB.AX',
-        company: 'VIETNAM',
+        company: 'IRAQ',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 2,
@@ -20,7 +23,8 @@ export default [
         company: 'USA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 3,
@@ -28,6 +32,8 @@ export default [
         company: 'ITALY',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 4,
@@ -35,7 +41,8 @@ export default [
         company: 'ENGLAND',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 5,
@@ -43,6 +50,8 @@ export default [
         company: 'EGYPT',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 6,
@@ -50,6 +59,8 @@ export default [
         company: 'TURKEY',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 7,
@@ -57,7 +68,8 @@ export default [
         company: 'BELGIUM',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 8,
@@ -65,7 +77,8 @@ export default [
         company: 'USA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 9,
@@ -73,6 +86,8 @@ export default [
         company: 'GERMANY',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 10,
@@ -80,7 +95,8 @@ export default [
         company: 'SPAIN',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 11,
@@ -88,7 +104,8 @@ export default [
         company: 'CHINA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 12,
@@ -96,7 +113,8 @@ export default [
         company: 'PHILIPPINES',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 13,
@@ -104,6 +122,8 @@ export default [
         company: 'RUSSIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 14,
@@ -111,7 +131,8 @@ export default [
         company: 'LAOS',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 15,
@@ -119,6 +140,8 @@ export default [
         company: 'CAMBODIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 16,
@@ -126,6 +149,8 @@ export default [
         company: 'SINGAPORE',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 17,
@@ -133,7 +158,8 @@ export default [
         company: 'THAILAND',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 18,
@@ -141,7 +167,8 @@ export default [
         company: 'IRAN',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 19,
@@ -149,6 +176,8 @@ export default [
         company: 'JAPAN',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 20,
@@ -156,7 +185,8 @@ export default [
         company: 'KOREAN',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 21,
@@ -164,6 +194,8 @@ export default [
         company: 'MALAYSIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
 
     },
     {
@@ -172,7 +204,8 @@ export default [
         company: 'FRANCE',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 23,
@@ -180,6 +213,8 @@ export default [
         company: 'HUNGARY',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 24,
@@ -187,7 +222,8 @@ export default [
         company: 'VIETNAM',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 25,
@@ -195,6 +231,8 @@ export default [
         company: 'INDONESIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 26,
@@ -202,6 +240,8 @@ export default [
         company: 'AUSTRALIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     },
     {
         id: 27,
@@ -209,6 +249,8 @@ export default [
         company: 'SYRIA',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
 
     },
     {
@@ -217,13 +259,16 @@ export default [
         company: 'FINLAND',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
-
+        change: 0,
+        percentChange: 0
     },
     {
         id: 29,
-        code: 'ABES.AX',
+        code: 'ABE.AX',
         company: 'ICELANDICELAND',
         price: (Math.random() * (99.99 - 0.01) + 0.01).toFixed(2),
         volume: parseInt(Math.random() * (1000000 - 1000) + 1000, 10),
+        change: 0,
+        percentChange: 0
     }
 ]

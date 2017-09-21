@@ -3,6 +3,7 @@ import TblHeader from './TblHeader';
 import TblData from './TblData';
 import AppBar from 'material-ui/AppBar';
 import { Tabs, Tab } from 'material-ui/Tabs';
+
 const styles = {
     tab: {
         fontSize: 18,
@@ -17,15 +18,14 @@ class Wrapper extends Component {
     constructor(props){
         super(props);
         this.state = {
-            sort: 'decrease'
+            sortType: 'gain'
         }
     }
 
-    check(i) {
+    sort(type) {
         this.setState({
-            sort: i
+            sortType: type
         })
-        this.refs.dt.setState({ sort: i})
     }
 
     render() {
@@ -35,14 +35,14 @@ class Wrapper extends Component {
                     title="A&P/ASX"
                     showMenuIconButton={false}>
                     <Tabs>
-                        <Tab className="gain" style={styles.tab} onActive={this.check.bind(this, 'decrease')} label="TOP GAINERS" >
+                        <Tab className="gain" style={styles.tab} onActive={this.sort.bind(this, 'gain')} label="TOP GAINERS" >
                         </Tab>
-                        <Tab className="lose" style={styles.tab} onActive={this.check.bind(this, 'increase')} label="TOP LOSERS" >
+                        <Tab className="lose" style={styles.tab} onActive={this.sort.bind(this, 'lose')} label="TOP LOSERS" >
                         </Tab>
                     </Tabs>
                 </AppBar>
                 <TblHeader />
-                <TblData className="data" ref='dt' />
+                <TblData className="data" sortType={this.state.sortType} />
             </div>
         )
     }

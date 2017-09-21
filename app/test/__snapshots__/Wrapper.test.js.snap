@@ -44,6 +44,7 @@ exports[`Render Wrapper 1`] = `
   <TblHeader />
   <TblData
     className="data"
+    sortType="gain"
   />
 </div>
 `;
